@@ -1,0 +1,25 @@
+nav {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li{
+  display: inline;
+  padding: 5px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: red;
+  background-color: aqua;
+}
+
+nav li a:active {
+  padding-left: 5px;
+  padding-right:5px;
+}
